@@ -6,6 +6,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+/**
+ * Esta clase representa la entidad Distritos
+ * @author jgomezm
+ *
+ */
 @Entity
 @Table(name = "distritos")
 public class Distrito {
